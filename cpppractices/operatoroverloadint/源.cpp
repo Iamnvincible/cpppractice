@@ -5,11 +5,15 @@ class Integer
 public:
 	Integer(int i);
 	~Integer();
+	int get() {
+		return i;
+	}
 	//overload + - * / % ^ & | ~
 	//			! && || < <= == >= >
 	//++ --
 	const Integer& operator+=(const Integer& that){
-		return this->i + that.i;
+		this->i + that.i;
+		return *this;
 	}
 	//++a
 	const Integer& operator++() {
@@ -40,5 +44,8 @@ Integer::~Integer()
 {
 }
 int main() {
+	Integer a(10), b(20);
+	a ++;
+	cout << a.get() << endl;
 
 }
