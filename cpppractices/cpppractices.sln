@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operatoroverloadint", "oper
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template", "Template\Template.vcxproj", "{16D48535-290D-4AB7-95A4-122A4CBA5EE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STLcontainer", "STLcontainer\STLcontainer.vcxproj", "{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{16D48535-290D-4AB7-95A4-122A4CBA5EE2}.Release|x64.Build.0 = Release|x64
 		{16D48535-290D-4AB7-95A4-122A4CBA5EE2}.Release|x86.ActiveCfg = Release|Win32
 		{16D48535-290D-4AB7-95A4-122A4CBA5EE2}.Release|x86.Build.0 = Release|Win32
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Debug|x64.ActiveCfg = Debug|x64
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Debug|x64.Build.0 = Debug|x64
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Debug|x86.Build.0 = Debug|Win32
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Release|x64.ActiveCfg = Release|x64
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Release|x64.Build.0 = Release|x64
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Release|x86.ActiveCfg = Release|Win32
+		{6C94BE3F-4B5C-4F95-B7E8-3E95E5C938EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
