@@ -23,7 +23,7 @@ int main() {
 	s.push_front("alabama");
 	list<string>::iterator q;
 	for (q = s.begin(); q != s.end(); q++) {
-		cout << *p << " ";
+		cout << *q << " ";
 	}
 	return 0;
 }
